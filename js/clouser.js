@@ -1,11 +1,11 @@
 //Clousers
 
-function makeMultiplier(multiplier) {
+function makeMultiplier (multiplier) {
 	return (
-		function (x) {
+		function(x) {
 			return multiplier * x;
 		}
 	);
 }
 var doubleAll = makeMultiplier(2);
-console.log(doubleAll(10));0
+console.log(doubleAll(10));
