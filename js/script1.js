@@ -6,4 +6,4 @@ parisaGreeter.sayHello = function () {
 	console.log(greeting + parisaGreeter.name);
 }
 	window.parisaGreeter = parisaGreeter;
-})(window)
+})(window);
